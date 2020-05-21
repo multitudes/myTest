@@ -10,7 +10,7 @@ import Foundation
 import CryptoKit
 
 @available(macOS 10.15, *)
-extension String {
+public extension String {
     var lines: [String] {
         components(separatedBy: .newlines)
     }
