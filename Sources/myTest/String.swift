@@ -11,7 +11,7 @@ import CryptoKit
 
 @available(macOS 10.15, *)
 public extension String {
-    var lines: [String] {
+    public var lines: [String] {
         components(separatedBy: .newlines)
     }
 
